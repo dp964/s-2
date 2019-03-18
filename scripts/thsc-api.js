@@ -10,8 +10,10 @@ function loadshell()
 			}
 	else
 	{
+		
 		var folder = '/s/'+url.split('/s/')[1].split('/').slice(0, -1).join('/') +'/';
 	}
+var fname = fname.replace(".html", "");
 var folder = folder.replace('//', '/');
 // <title>THSC Online - HSC Resources</title>
 	document.write("<head><title>thsconline...</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />")
