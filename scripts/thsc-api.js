@@ -15,7 +15,7 @@ function loadshell()
 	}
 var fname = fname.replace(".html", "");
 var folder = folder.replace('//', '/');
-var origin = window.location.protocol+'//'+window.location.pathname.split('/s/')[0]
+var origin = window.location.protocol+'//'+url.split('/s/')[0]
 alert(origin);
 	
 // <title>THSC Online - HSC Resources</title>
