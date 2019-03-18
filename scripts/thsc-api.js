@@ -2,6 +2,7 @@ function loadshell()
 {	
 	var folder = document.getElementsByClassName("shell")[0].getAttribute("data-hash");
 	// var fname = document.getElementsByClassName("shell")[0].getAttribute("data-filename");
+	var url = window.location.pathname;
 	var fname = url.substring(url.lastIndexOf('/')+1);
 	if (fname == ""){fname = "index.html"}
 
