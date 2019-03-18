@@ -20,27 +20,27 @@ border: 0px !important;
 	border-bottom-color: rgb(204, 204, 204);
 }
 #sites-chrome-everything h2 {
-	font: 600 22px/bold "XITS", sans-serif; padding: 14px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+	font: 600 22px/bold "XITS", "Palatino Linotype", "Arial", sans-serif; padding: 14px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
 }
 #sites-chrome-everything .sites-header-cell-buffer-wrapper h2 {
-	font: 600 24px/bold "XITS", sans-serif; padding: 14px 5px 5px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+	font: 600 24px/bold "XITS", "Palatino Linotype", "Arial", sans-serif; padding: 14px 5px 5px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
 }
 
 h3 {
-	font: 600 17px/normal "XITS", sans-serif; padding: 12px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+	font: 600 17px/normal "XITS", "Palatino Linotype", "Arial", sans-serif; padding: 12px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
 /*    border-bottom: 1px solid #c0c0c0; */
     margin-bottom: 10px;
     padding-bottom: 10px;
     white-space: nowrap;
 }
 h4 {
-	font: 600 15px/normal "XITS", sans-serif; padding: 10px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+	font: 600 15px/normal "XITS", "Palatino Linotype", "Arial", sans-serif; padding: 10px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
 }
 h5 {
-	font: 600 13px/normal "XITS", sans-serif; padding: 8px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+	font: 600 13px/normal "XITS", "Palatino Linotype", "Arial", sans-serif; padding: 8px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
 }
 h6 {
-	font: 600 12px/normal "XITS", sans-serif; padding: 7px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+	font: 600 12px/normal "XITS", "Palatino Linotype", "Arial", sans-serif; padding: 7px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
 }
 
 td {
@@ -55,7 +55,7 @@ td {
 }
 
 #sites-chrome-everything {
-	color: rgb(97, 97, 97); line-height: 1.5; padding-top: 0px; /* padding-bottom: 20px; */ font-family: "XITS",sans-serif;
+	color: rgb(97, 97, 97); line-height: 1.5; padding-top: 0px; /* padding-bottom: 20px; */ font-family: "XITS", "Palatino Linotype", "Arial",sans-serif;
 }
 @font-face {
     font-family: XITS;
@@ -88,7 +88,7 @@ td {
 }
 
 * {
-	font-family: "XITS", "sans-serif" !important;
+	font-family: "XITS", "Palatino Linotype", "Arial", "sans-serif" !important;
 }
 
 #sites-header-title {
@@ -526,7 +526,7 @@ min-width:440px !important;
 	background-color: rgb(255, 255, 255);
 }
 body #sites-header-title h2 {
-	font: bold 33px/normal "XITS", sans-serif; margin: 0px; padding: 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+	font: bold 33px/normal "XITS", "Palatino Linotype", "Arial", sans-serif; margin: 0px; padding: 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
 }
 .sites-header-primary-row td {
 	vertical-align: middle;
@@ -541,7 +541,7 @@ body #sites-header-title h2 {
 	padding-right: 0px;
 }
 body #sites-page-title-header {
-	font: 26px/normal "XITS", sans-serif; margin: 0px; padding: 33px 10px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+	font: 26px/normal "XITS", "Palatino Linotype", "Arial", sans-serif; margin: 0px; padding: 33px 10px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
 }
 body #sites-page-title-header input {
 	border-style: dotted; height: auto; line-height: 1;
@@ -590,7 +590,7 @@ code {
 }
 
 * {
-	font-family: "XITS", "Arial", "sans-serif" !important;
+	font-family: "XITS", "sans-serif" !important;
 }
 body
 {
