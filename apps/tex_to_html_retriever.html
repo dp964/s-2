@@ -1,0 +1,55 @@
+<html><head><title>TEX TO HTML RETRIEVER</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head><body>
+<h3>TEX TO HTML RETRIEVER</h3>
+<i>About this app</i><br /><br />
+This app was created to parse TEX files into HTML. The script works as follows:<br />
+<ol>
+<li>Extract .tex file from source as raw text</li>
+<li>Wrap raw text in a XHTML skeleton/container, parsing any errors still as raw text</li>
+<li>Use a XML parser to convert the XHTML into raw HTML</li>
+<li>Load MathJax script and replace $...$ pattern with regex</li>
+<li>Run regex find/replace patterns to replace non-math LATEX commands into HTML tags</li>
+<li>Post-processing and display HTML output using a predefined CSS template</li>
+</ol>
+<br />
+<i>Launch App</i><br /><br />
+To launch "Tex to HTML Retriever", you can launch it here, <br />
+<input id="serve" onmouseleave="urlupdate()" onmouseout="urlupdate()" onclick="urlupdate()"> (optional: enter Google Drive file id)<br /><br />
+<a target="blank" id="launch" style="border-radius:5px; border: 1px solid blue; color:blue !important;text-decoration:none;" href="https://script.google.com/macros/s/AKfycbwCD820RhO-z3t-E5KXoAUk8qkr0XLUwfgOa8rT6KlUWsWR1lQ/exec">Launch App</a>
+<script>
+function urlupdate()
+{
+var qserve=document.getElementById("serve").value;
+var qlink = document.getElementById("launch").href.split("/exec")[0] 
+document.getElementById("launch").href=qlink+"/exec?serve="+qserve;
+document.getElementById("launch").href=qlink+"/exec?serve="+qserve;
+
+}
+</script>
+<br /><br />
+<i>Custom Configurations</i><br /><br />
+The script can be configured by adding parameters to the script url as follows<br /><br />
+<span style="color:blue;"> ?serve:</span> the id of the tex file in Google Drive<br /><br />
+<span style="color:blue;"> ?base:</span> the template served by the script. Some templates may take files from another server instead of Google Drive if configured correctly.<br />
+&emsp;&emsp;<i>drive [default]: </i> Retrieves the file from Google Drive<br />
+&emsp;&emsp;<i>drive_withedit:</i> Retrieves the file from Google Drive with options to edit and download the TEX file.<br />
+&emsp;&emsp;<i>thsc:</i> Retrieves the file from /s/tex/<br />
+<br />
+
+<span style="color:blue;"> ?sourcecode:</span> whether to display the sourcecode.<br />
+&emsp;&emsp;<i>true:</i> Displays the sourcecode of the file<br />
+&emsp;&emsp;<i>[default]:</i> Displays the final output<br />
+<br />
+<span style="color:blue;"> ?render:</span> if "sourcecode" is set to true, this will determine at what point of processing, the code is presented<br />
+&emsp;&emsp;<i>0:</i> Displays the content of the retrieved TEX file<br />
+&emsp;&emsp;<i>1:</i> Displays the content of XHTML skeleton before XML processing<br />
+&emsp;&emsp;<i>2 [default]:</i> Displays the HTML content used for the template<br />
+<br /><br />
+<i>Privacy Policy & Terms of Service:</i><br /><br />
+Users upon granting access to the script, grant access to any Google Drive files that can be retrieved by the user.<br /><br />
+Users email address and file content may be displayed but are not stored remotely. No information is retained or disclosed to any other user or third-party organisation.<br /><br />
+
+</body></html>
