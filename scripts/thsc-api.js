@@ -27,7 +27,7 @@ var origin = window.location.protocol+'//'+window.location.hostname + url.split(
 	// document.write("<script src=\"https://thsconline.github.io\/s\/scripts\/thsc-search.js\" type=\"text\/javascript\"><\/script>");
 	document.write("<link rel=\"shortcut icon\" type=\"image\/x-icon\" href=\"https://thsconline.github.io\/s\/images\/icon_def.png\" \/>");
 
-	document.write("<script type=\"application\/javascript\" src=\"https:\/\/script.google.com\/macros\/s\/AKfycbyUUReOeIpiiIJWWMaKORJYURDTso_cm5RNuNu0W0oVKBPfNtdk\/exec?server="+origin+"&folderpath="+folder+"&filename="+fname+"&prefix=shell\"\"><\/script><\/head>");
+	document.write("<script type=\"application\/javascript\" src=\"https:\/\/script.google.com\/macros\/s\/AKfycbyUUReOeIpiiIJWWMaKORJYURDTso_cm5RNuNu0W0oVKBPfNtdk\/exec?server="+origin+"&folderpath="+folder+"&filename="+fname+"&prefix=shell\"><\/script><\/head>");
 	
 }
 
