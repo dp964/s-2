@@ -1,9 +1,10 @@
 function loadshell()
 {	
-	var folder = document.getElementsByClassName("shell")[0].getAttribute("data-hash");
+	// var folder = document.getElementsByClassName("shell")[0].getAttribute("data-hash");
 	// var fname = document.getElementsByClassName("shell")[0].getAttribute("data-filename");
 	var url = window.location.pathname;
 	var fname = url.substring(url.lastIndexOf('/')+1);
+	var folder = url.split('/s/')[1].split(fname+'/')[0];	
 	if (fname == ""){fname = "index"}
 	alert(fname)
 
