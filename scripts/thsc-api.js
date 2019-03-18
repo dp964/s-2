@@ -15,6 +15,9 @@ function loadshell()
 	}
 var fname = fname.replace(".html", "");
 var folder = folder.replace('//', '/');
+var origin = url.split('/s/')[0]
+alert(origin);
+	
 // <title>THSC Online - HSC Resources</title>
 	document.write("<head><title>thsconline (loading...)</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />")
 	document.write("<meta name=\"viewport\" content=\"initial-scale=1, minimum-scale=1, width=device-width\" \/>")
@@ -25,7 +28,7 @@ var folder = folder.replace('//', '/');
 	// document.write("<script src=\"https://thsconline.github.io\/s\/scripts\/thsc-search.js\" type=\"text\/javascript\"><\/script>");
 	document.write("<link rel=\"shortcut icon\" type=\"image\/x-icon\" href=\"https://thsconline.github.io\/s\/images\/icon_def.png\" \/>");
 
-	document.write("<script type=\"application\/javascript\" src=\"https:\/\/script.google.com\/macros\/s\/AKfycbyUUReOeIpiiIJWWMaKORJYURDTso_cm5RNuNu0W0oVKBPfNtdk\/exec?folderpath="+folder+"&filename="+fname+"&prefix=shell\"\"><\/script><\/head>");
+	document.write("<script type=\"application\/javascript\" src=\"https:\/\/script.google.com\/macros\/s\/AKfycbyUUReOeIpiiIJWWMaKORJYURDTso_cm5RNuNu0W0oVKBPfNtdk\/exec?server="+origin+"&folderpath="+folder+"&filename="+fname+"&prefix=shell\"\"><\/script><\/head>");
 	
 }
 
