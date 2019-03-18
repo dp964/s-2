@@ -4,10 +4,15 @@ function loadshell()
 	// var fname = document.getElementsByClassName("shell")[0].getAttribute("data-filename");
 	var url = window.location.pathname;
 	var fname = url.substring(url.lastIndexOf('/')+1);
-	var folder = 's/'+url.split('/s/')[1].split('/').slice(0, -1).join('/');
-	if (fname == ""){fname = "index"}
-	alert(fname)
-
+	var folder = '/s/'+url.split('/s/')[1].split('/').slice(0, -1).join('/') +'/';
+	if (fname == ""){fname = "index"
+		var folder = '/s/'+url.split('/s/')[1]+'/';
+			}
+	else
+	{
+		var folder = '/s/'+url.split('/s/')[1].split('/').slice(0, -1).join('/') +'/';
+	}
+var folder = folder.replace('//', '/');
 // <title>THSC Online - HSC Resources</title>
 	document.write("<head><title>thsconline...</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />")
 	document.write("<meta name=\"viewport\" content=\"initial-scale=1, minimum-scale=1, width=device-width\" \/>")
