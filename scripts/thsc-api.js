@@ -4,7 +4,7 @@ function loadshell()
 	// var fname = document.getElementsByClassName("shell")[0].getAttribute("data-filename");
 	var url = window.location.pathname;
 	var fname = url.substring(url.lastIndexOf('/')+1);
-	var folder = url.split('/').slice(0, -1).join('/');
+	var folder = url.split('/s/')[1].split('/').slice(0, -1).join('/');
 	if (fname == ""){fname = "index"}
 	alert(fname)
 
