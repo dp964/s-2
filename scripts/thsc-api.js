@@ -16,7 +16,6 @@ function loadshell()
 var fname = fname.replace(".html", "");
 var folder = folder.replace('//', '/');
 var origin = window.location.protocol+'//'+window.location.hostname + url.split('/s/')[0]
-alert(origin);
 	
 // <title>THSC Online - HSC Resources</title>
 	document.write("<head><title>thsconline (loading...)</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />")
