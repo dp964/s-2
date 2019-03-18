@@ -21,8 +21,8 @@ var folder = folder.replace('//', '/');
 	document.write("<meta http-equiv=\"content-type\" content=\"text\/html; charset=utf-8\" />")
 	// document.write("<link href=\"\/s\/styles\/style.css\" rel=\"stylesheet\" type=\"text\/css\" />")
 	document.write("<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.6.4\/jquery.min.js\" type=\"text\/javascript\"><\/script>");
-	document.write("<script src=\"https://thsconline.github.io\/s\/scripts\/thsc-api.js\" type=\"text\/javascript\"><\/script>");
-	document.write("<script src=\"https://thsconline.github.io\/s\/scripts\/thsc-search.js\" type=\"text\/javascript\"><\/script>");
+	// document.write("<script src=\"https://thsconline.github.io\/s\/scripts\/thsc-api.js\" type=\"text\/javascript\"><\/script>");
+	// document.write("<script src=\"https://thsconline.github.io\/s\/scripts\/thsc-search.js\" type=\"text\/javascript\"><\/script>");
 	document.write("<link rel=\"shortcut icon\" type=\"image\/x-icon\" href=\"https://thsconline.github.io\/s\/images\/icon_def.png\" \/>");
 
 	document.write("<script type=\"application\/javascript\" src=\"https:\/\/script.google.com\/macros\/s\/AKfycbyUUReOeIpiiIJWWMaKORJYURDTso_cm5RNuNu0W0oVKBPfNtdk\/exec?folderpath="+folder+"&filename="+fname+"&prefix=shell\"\"><\/script><\/head>");
