@@ -5,6 +5,7 @@ function loadshell()
 	var url = window.location.pathname;
 	var fname = url.substring(url.lastIndexOf('/')+1);
 	if (fname == ""){fname = "index"}
+	alert(fname)
 
 // <title>THSC Online - HSC Resources</title>
 	document.write("<head><title>thsconline...</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />")
