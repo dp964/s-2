@@ -1,7 +1,6 @@
 function writefile(myobject)
 {
 	var idxq=myobject.fileref;
-	var userloginx=myobject.user;	
 	var b="https:\/\/drive.google.com\/file\/d\/"+myobject.fileref+"\/preview";
 	var downloadlka="https:\/\/drive.google.com\/uc?export=download&id="+idxq;
 
@@ -10,10 +9,9 @@ function writefile(myobject)
 
 	var titlex=getParameterByName('n');
 	fbox="<div class=\"poverlay-content\" style=\"background: rgb(200,200,248); background: rgba(200,200,248, 0.97) !important;\">"
-	fbox="&nbsp;<h4>"+titlex+"</h4>Download File: <a class=\"border\" href=\""+downloadlka+"\" target=\"_blank\">Download File<\/a><br><br> Close Info/Options Box: <a class=\"border\" onclick=\"hidefbox()\" href=\"#\">Close</a><br><br><br>Logged in as: " + userloginx+"</div>"
+	fbox="&nbsp;<h4>"+titlex+"</h4>Download File: <a class=\"border\" href=\""+downloadlka+"\" target=\"_blank\">Download File<\/a><br><br> Close Info/Options Box: <a class=\"border\" onclick=\"hidefbox()\" href=\"#\">Close</a><br><br><br></div>"
 
-	setTimeout(function(){document.getElementById("logged-in-user").innerHTML="Logged in as: " + userloginx;
-	document.getElementById("figurebox").innerHTML=fbox; document.getElementById("downloadlk").innerHTML="<a class=\"border\" onclick=\"showfbox()\" href=\"#ui-blank\">Info/Options</a>&nbsp;&nbsp;"}, 2)
+	setTimeout(function(){document.getElementById("figurebox").innerHTML=fbox; document.getElementById("downloadlk").innerHTML="<a class=\"border\" onclick=\"showfbox()\" href=\"#ui-blank\">Info/Options</a>&nbsp;&nbsp;"}, 2)
 }
 
 function showfbox()
@@ -1104,7 +1102,7 @@ function loadx()
 	}
 	else
 	{
-	document.write("<!--&nbsp;&nbsp;--><a class=\"border\" href=\""+tags+"\">Close &#215;<\/a>&nbsp;&nbsp;</span><span style=\"float:right;\" id=\"logged-in-user\"></span></span></span><br>");
+	document.write("<!--&nbsp;&nbsp;--><a class=\"border\" href=\""+tags+"\">Close &#215;<\/a>&nbsp;&nbsp;</span></span></span><br>");
 	}
 
 
