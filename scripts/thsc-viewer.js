@@ -168,7 +168,8 @@ function loadx()
 	break;
 	case "1034":
 	var tix="THSC Online";
-	var tags="/s/?landing";
+	var callback=getParameterByName('callback', "?landing") 					
+	var tags="/s/"+callback;
 	break;
 	case "1070":
 	var tix="HSC Agriculture";
