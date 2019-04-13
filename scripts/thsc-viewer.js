@@ -175,7 +175,7 @@ function loadx()
 	}
 	else
 	{
-		var tags="/s/"+callback+"/";
+		var tags="/s/"+callback+"/"+idx;
 	}
 	break;
 	case "1070":
