@@ -3,6 +3,7 @@ function loadshell()
 	// var folder = document.getElementsByClassName("shell")[0].getAttribute("data-hash");
 	// var fname = document.getElementsByClassName("shell")[0].getAttribute("data-filename");
 	var url = window.location.pathname;
+	var url = url.replace("&", "_");
 	var fname = url.substring(url.lastIndexOf('/')+1);
 	var folder = '/s/'+url.split('/s/')[1].split('/').slice(0, -1).join('/') +'/';
 	if (fname == ""){fname = "index"
