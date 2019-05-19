@@ -175,654 +175,370 @@ function loadx()
 	}
 	else
 	{
-		var tags="/s/"+callback+"/"+idx;
+		var tags="/s/"+callback+"/#"+idx;
 	}
-	break;
-	case "1070":
-	var tix="HSC Agriculture";
-	var tags="/s/yr12/Agriculture/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="234"
 	break;
 	case "1076":
 	var tix="HSC Agriculture HY Papers";
 	var tags="/s/yr12/Agriculture/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="234"
 	break;
 	case "1078":
 	var tix="HSC Agriculture Trial Papers";
 	var tags="/s/yr12/Agriculture/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="234"
-	break;
-	case "1170":
-	var tix="HSC Ancient History";
-	var tags="/s/yr12/Ancient History/hscpapers.html?rf#"+idx;	
-	var downloadlk="https://github.com/thsconline/s/raw/gh-pages/resources/Ancient History/"+hfolder+"/Ancient History "+fname+".pdf";
-	var viewlk="https://docs.google.com/viewer?url=https://thsconline.github.io/s/resources/Ancient History/"+hfolder+"/Ancient History "+fname+".pdf&embedded=true";
-	var forumenabled="forum=1";
-	var forumlk="32"
 	break;
 	case "1178":
 	var tix="HSC Ancient History Trial Papers";
 	var tags="/s/yr12/Ancient History/trialpapers.html#"+idx;	
-	var forumenabled="forum=1";
-	var forumlk="32"
 	break;
 	case "1366":
 	var tix="Year 11 Biology HY Papers";
 	var tags="/s/yr11/Biology/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="16"
 	break;
 	case "1368":
 	var tix="Year 11 Biology Yearly Papers";
 	var tags="/s/yr11/Biology/prelimpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="16"
-	break;
-	case "1370":
-	var tix="HSC Biology";
-	var tags="/s/yr12/Biology/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="16"
 	break;
 	case "1376":
 	var tix="HSC Biology HY Papers";
 	var tags="/s/yr12/Biology/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="16"
 	break;
 	case "1378":
 	var tix="HSC Biology Trial Papers";
 	var tags="/s/yr12/Biology/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="16"
-	break;
-	case "1520":
-	var tix="HSC Business Services";
-	var tags="/s/yr12/Business Services/index.html#"+idx;
 	break;
 	case "1568":
 	var tix="Year 11 Business Studies Yearly Papers";
 	var tags="/s/yr11/Business Studies/prelimpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="21"
-	break;
-	case "1570":
-	var tix="HSC Business Studies";
-	var tags="/s/yr12/Business Studies/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="21"
 	break;
 	case "1576":
 	var tix="HSC Business Studies HY Papers";
 	var tags="/s/yr12/Business Studies/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="21"
 	break;
 	case "1578":
 	var tix="HSC Business Studies Trial Papers";
 	var tags="/s/yr12/Business Studies/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="21"
-	break;
-	case "1720":
-	var tix="HSC CAFS";
-	var tags="/s/yr12/CAFS/index.html?rf#"+idx;	
-	var downloadlk="https://github.com/thsconline/s/raw/gh-pages/resources/CAFS/"+hfolder+"/CAFS "+fname+".pdf";
-	var viewlk="https://docs.google.com/viewer?url=https://thsconline.github.io/s/resources/CAFS/"+hfolder+"/CAFS "+fname+".pdf&embedded=true";
-	var forumenabled="forum=1";
-	var forumlk="90"
 	break;
 	case "1816":
 	var tix="Year 11 Chemistry HY Papers";
 	var tags="/s/yr11/Chemistry/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="17"
 	break;
 	case "1818":
 	var tix="Year 11 Chemistry Yearly Papers";
 	var tags="/s/yr11/Chemistry/prelimpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="17"
-	break;
-	case "1820":
-	var tix="HSC Chemistry";
-	var tags="/s/yr12/Chemistry/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="17"
 	break;
 	case "1821":
 	var tix="HSC Chemistry CT1 Nov-Dec Assessments";
 	var tags="/s/yr12/Chemistry/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="17"
 	break;
 	case "1823":
 	var tix="HSC Chemistry CT3 May-Jun Assessments";
 	var tags="/s/yr12/Chemistry/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="17"
 	break;
 	case "1826":
 	var tix="HSC Chemistry HY Papers";
 	var tags="/s/yr12/Chemistry/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="17"
 	break;
 	case "1828":
 	var tix="HSC Chemistry Trial Papers";
 	var tags="/s/yr12/Chemistry/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="17"
-	break;
-	case "2070":
-	var tix="HSC Dance";
-	var tags="/s/yr12/Dance/index.html?rf#"+idx;	
-	var downloadlk="https://github.com/thsconline/s/raw/gh-pages/resources/Dance/"+hfolder+"/Dance "+fname+".pdf";
-	var viewlk="https://docs.google.com/viewer?url=https://thsconline.github.io/s/resources/Dance/"+hfolder+"/Dance "+fname+".pdf&embedded=true";
-	var forumenabled="forum=1";
-	var forumlk="130"
-	break;
-	case "2120":
-	var tix="HSC Design &amp; Tech";
-	var tags="/s/yr12/Design &amp; Tech/index.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="39"
-	break;
-	case "2320":
-	var tix="HSC Drama";
-	var tags="/s/yr12/Drama/index.html?rf#"+idx;	
-	var downloadlk="https://github.com/thsconline/s/raw/gh-pages/resources/Drama/"+hfolder+"/Drama "+fname+".pdf";
-	var viewlk="https://docs.google.com/viewer?url=https://thsconline.github.io/s/resources/Drama/"+hfolder+"/Drama "+fname+".pdf&embedded=true";
-	var forumenabled="forum=1";
-	var forumlk="62"
-	break;
-	case "2420":
-	var tix="HSC Earth &amp; Environmental Science";
-	var tags="/s/yr12/Earth &amp; Environmental Science/hscpapers.html#"+idx
-	var forumenabled="forum=1";
-	var forumlk="43"
 	break;
 	case "2428":
 	var tix="HSC Earth &amp; Environmental Science";
 	var tags="/s/yr12/Earth &amp; Environmental Science/trialpapers.html#"+idx
-	var forumenabled="forum=1";
-	var forumlk="43"
 	break;
 	case "2466":
 	var tix="Year 11 Economics HY Papers";
 	var tags="/s/yr11/Economics/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="22"
 	break;
 	case "2468":
 	var tix="Year 11 Economics Yearly Papers";
 	var tags="/s/yr11/Economics/prelimpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="22"
-	break;
-	case "2470":
-	var tix="HSC Economics";
-	var tags="/s/yr12/Economics/hscpapers.html#"+idx
-	var forumenabled="forum=1";
-	var forumlk="22"
 	break;
 	case "2476":
 	var tix="HSC Economics HY Papers"
 	var tags="/s/yr12/Economics/assessment-tasks.html#"+idx
-	var forumenabled="forum=1";
-	var forumlk="22"
 	break;
 	case "2478":
 	var tix="HSC Economics Trial Papers"
 	var tags="/s/yr12/Economics/trialpapers.html#"+idx
-	var forumenabled="forum=1";
-	var forumlk="22"
-	break;
-	case "2670":
-	var tix="HSC Engineering Studies";
-	var tags="/s/yr12/Engineering Studies/index.html?rf#"+idx;	
-	var downloadlk="https://github.com/thsconline/s/raw/gh-pages/resources/Engineering Studies/"+hfolder+"/Engineering Studies "+fname+".pdf";
-	var viewlk="https://docs.google.com/viewer?url=https://thsconline.github.io/s/resources/Engineering Studies/"+hfolder+"/Engineering Studies "+fname+".pdf&embedded=true";
-	var forumenabled="forum=1";
-	var forumlk="28"
 	break;
 	case "2716":
 	var tix="HSC English HY";
 	var tags="/s/yr12/English/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="4"
 	break;
 	case "2718":
 	var tix="HSC English Trial Paper 1";
 	var tags="/s/yr12/English/trialpapers_paper1.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="44"
 	break;
 	case "2720":
 	var tix="HSC English";
 	var tags="/s/yr12/English/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="4"
 	break;
 	case "2727":
 	var tix="HSC English Trial Paper 2 Standard";
 	var tags="/s/yr12/English/trialpapers_paper2_standard.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="6"
 	break;
 	case "2728":
 	var tix="HSC English Trial Paper 2 Advanced";
 	var tags="/s/yr12/English/trialpapers_paper2_advanced.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="7"
 	break;
 	case "2730":
 	var tix="HSC English Ext 1";
 	var tags="/s/yr12/English Ext 1 & 2/hscpapers_extension1.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="8"
 	break;
 	case "2738":
 	var tix="HSC English Ext 1 Trial Papers";
 	var tags="/s/yr12/English Ext 1 & 2/trialpapers_extension1.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="8"
-	break;
-	case "2920":
-	var tix="HSC Food Tech";
-	var tags="/s/yr12/Food Tech/index.html?rf#"+idx;	
-	var downloadlk="https://github.com/thsconline/s/raw/gh-pages/resources/Food Tech/"+hfolder+"/Food Tech "+fname+".pdf";
-	var viewlk="https://docs.google.com/viewer?url=https://thsconline.github.io/s/resources/Food Tech/"+hfolder+"/Food Tech "+fname+".pdf&embedded=true";
-	break;
-	case "3220":
-	var tix="HSC Geography";
-	var tags="/s/yr12/Geography/index.html?rf#"+idx;	
-	var downloadlk="https://github.com/thsconline/s/raw/gh-pages/resources/Geography/"+hfolder+"/Geography "+fname+".pdf";
-	var viewlk="https://docs.google.com/viewer?url=https://thsconline.github.io/s/resources/Geography/"+hfolder+"/Geography "+fname+".pdf&embedded=true";
-	break;
-	case "3630":
-	var tix="HSC History Extension";
-	var tags="/s/yr12/History Extension/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="34"
 	break;
 	case "3638":
 	var tix="HSC History Extension Trial Papers";
 	var tags="/s/yr12/History Extension/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="34"
-	break;
-	case "3720":
-	var tix="HSC Hospitality Papers";
-	var tags="/s/yr12/Hospitality/index.html#"+idx;
 	break;
 	case "4118":
 	var tix="Year 11 IPT Yearly Papers";
 	var tags="/s/yr11/IPT/prelimpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="29"
-	break;
-	case "4120":
-	var tix="HSC IPT";
-	var tags="/s/yr12/IPT/index.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="29"
 	break;
 	case "4126":
 	var tix="HSC IPT HY Papers";
 	var tags="/s/yr12/IPT/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="29"
 	break;
 	case "4128":
 	var tix="HSC IPT Trial Papers";
 	var tags="/s/yr12/IPT/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="29"
 	break;
 	case "4200":
 	var tix="HSC Languages";
 	var tags="/s/yr12/LOTE/index.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="53"
 	break; 
 	case "4600":
 	var tix="HSC Japanese";
 	var tags="/s/yr12/LOTE/Japanese/index.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="53"
 	break; 
 	case "4619":
 	var tix="HSC Japanese Beginners";
 	var tags="/s/yr12/LOTE/Japanese/hscpapers_beginners.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="53"
 	break; 
 	case "4620":
 	var root=titlex.substr(5).toLowerCase();
 	if (root=="solutions" || root=="solution" || root=="solutions%20-%20markers%20notes" || root=="solutions - markers notes"){root="hsc"}
 	var tix="HSC Japanese Continuers";
 	var tags="/s/yr12/LOTE/Japanese/"+root+"papers_continuers.html?rf#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="53"
 	break; 
 	case "4626":
 	var tix="HSC Japanese Continuers HY Papers";
 	var tags="/s/yr12/LOTE/Japanese/assessment-tasks_continuers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="53"
 	break; 
 	case "4627":
 	var tix="HSC Japanese Beginners Trial Papers";
 	var tags="/s/yr12/LOTE/Japanese/trialpapers_beginners.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="53"
 	break;
 	case "4628":
 	var tix="HSC Japanese Continuers Trial Papers";
 	var tags="/s/yr12/LOTE/Japanese/trialpapers_continuers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="53"
 	break;
 	case "4630":
 	var tix="HSC Japanese Extension";
 	var tags="/s/yr12/LOTE/Japanese/hscpapers_extension.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="53"
 	break; 
 	case "5018":
 	var tix="Year 11 Legal Studies Yearly Papers";
 	var tags="/s/yr11/Legal Studies/prelimpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="24"
-	break;
-	case "5020":
-	var tix="HSC Legal Studies";
-	var tags="/s/yr12/Legal Studies/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="24"
 	break;
 	case "5028":
 	var tix="HSC Legal Studies Trial Papers";
 	var tags="/s/yr12/Legal Studies/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="24"
 	break;
 	case "5098":
 	var tix="Year 9 Maths Yearly Papers";
 	var tags="/s/yr9/Maths/yr9papers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="10"
 	break;
 	case "5100":
 	var tix="Year 10 Maths";
 	var tags="/s/yr10/Maths/index.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="10"
 	break;
 	case "5108":
 	var tix="Year 10 Maths Yearly Papers";
 	var tags="/s/yr10/Maths/yr10papers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="10"
 	break;
 	case "5200":
 	var tix="Year 11 Maths";
 	var tags="/s/yr11/Maths/index.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="10"
 	break;
 	case "5218":
 	var tix="Year 11 General Maths Yearly Papers";
 	var tags="/s/yr11/Maths/prelimpapers_general.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="11"
 	break;
 	case "5221":
 	var tix="Year 11 Maths PT1 Mar-Apr Assessments";
 	var tags="/s/yr11/Maths/assessment-tasks_advanced.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5222":
 	var tix="Year 11 Maths PT2 Jul-Aug Assessments";
 	var tags="/s/yr11/Maths/assessment-tasks_advanced.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5226":
 	var tix="Year 11 Maths HY Papers";
 	var tags="/s/yr11/Maths/assessment-tasks_advanced.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5228":
 	var tix="Year 11 Maths Yearly Papers";
 	var tags="/s/yr11/Maths/prelimpapers_advanced.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
 	break;
 	case "5231":
 	var tix="Year 11 Maths Ext 1 PT1 Mar-Apr Assessments";
 	var tags="/s/yr11/Maths/assessment-tasks_extension1.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
 	break;
 	case "5232":
 	var tix="Year 11 Maths Ext 1 PT2 Jul-Aug Assessments";
 	var tags="/s/yr11/Maths/assessment-tasks_extension1.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
 	break;
 	case "5236":
 	var tix="Year 11 Maths Ext 1 HY Papers";
 	var tags="/s/yr11/Maths/assessment-tasks_extension1.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
 	break;
 	case "5238":
 	var tix="Year 11 Maths Ext 1 Yearly Papers";
 	var tags="/s/yr11/Maths/prelimpapers_extension1.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
 	break;
 	case "5276":
 	var tix="Year 11 Maths (Accelerated) HY Papers";
 	var tags="/s/yr11/Maths/assessment-tasks_accelerated.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5278":
 	var tix="Year 11 Maths (Accelerated) Yearly Papers";
 	var tags="/s/yr11/Maths/prelimpapers_accelerated.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5300":
 	var tix="HSC Maths";
 	var tags="/s/yr12/Maths/index.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="10"
 	break;
 	case "5310":
 	var tix="HSC General Maths";
-	var tags="/s/yr12/Maths/hscpapers_general.html?rf#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="11"
+	var tags="/s/yr12/Maths/hscpapers_general.html#"+idx;
 	break;
 	case "5313":
 	var tix="HSC General Maths CT3 May-Jun Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_general.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="11"
 	break;
 	case "5316":
 	var tix="HSC General Maths HY Papers";
 	var tags="/s/yr12/Maths/assessment-tasks_general.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="11"
 	break;
 	case "5318":
 	var tix="HSC General Maths Trial Papers";
 	var tags="/s/yr12/Maths/trialpapers_general.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="11"
 	break;
 	case "5320":
 	var tix="HSC Maths";
-	var tags="/s/yr12/Maths/hscpapers_advanced.html?rf#"+idx;
+	var tags="/s/yr12/Maths/hscpapers_advanced.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5321":
 	var tix="HSC Maths CT1 Nov-Dec Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_advanced.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5323":
 	var tix="HSC Maths CT3 May-Jun Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_advanced.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5324":
 	var tix="HSC Maths CT4 Aug-Sep Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_advanced.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5326":
 	var tix="HSC Maths HY Papers";
 	var tags="/s/yr12/Maths/assessment-tasks_advanced.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5328":
 	var tix="HSC Maths Trial Papers";
 	var tags="/s/yr12/Maths/trialpapers_advanced.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="12"
 	break;
 	case "5330":
 	var tix="HSC Maths Ext 1";
-	var tags="/s/yr12/Maths/hscpapers_extension1.html?rf#"+idx;
+	var tags="/s/yr12/Maths/hscpapers_extension1.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
 	break;
 	case "5331":
 	var tix="HSC Maths Ext 1 CT1 Nov-Dec Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_extension1.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="13"
 	var maths="maths=1";
 	break;
 	case "5332":
 	var tix="HSC Maths Ext 1 CT2 Feb-Mar Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_extension1.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
 	break;
 	case "5333":
 	var tix="HSC Maths Ext 1 CT3 May-Jun Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_extension1.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
 	break;
 	case "5334":
 	var tix="HSC Maths Ext 1 CT4 Aug-Sep Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_extension1.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
-	break;
+	\break;
 	case "5336":
 	var tix="HSC Maths Ext 1 HY Papers";
 	var tags="/s/yr12/Maths/assessment-tasks_extension1.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
 	break;
 	case "5338":
 	var tix="HSC Maths Ext 1 Trial Papers";
 	var tags="/s/yr12/Maths/trialpapers_extension1.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="13"
 	break;
 	case "5340":
 	var tix="HSC Maths Ext 2";
-	var tags="/s/yr12/Maths/hscpapers_extension2.html?rf#"+idx;
+	var tags="/s/yr12/Maths/hscpapers_extension2.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="14"
 	break;
 	case "5341":
 	var tix="HSC Maths Ext 2 CT1 Nov-Dec Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_extension2.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="14"
 	break;
 	case "5342":
 	var tix="HSC Maths Ext 2 CT2 Feb-Mar Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_extension2.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="14"
 	break;
 	case "5343":
 	var tix="HSC Maths Ext 2 CT3 May-Jun Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_extension2.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="14"
 	break;
 	case "5344":
 	var tix="HSC Maths Ext 2 CT4 Aug-Sep Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_extension2.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="14"
 	break;
 	case "5346":
 	var tix="HSC Maths Ext 2 HY Papers";
 	var tags="/s/yr12/Maths/assessment-tasks_extension2.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="14"
 	break;
 	case "5348":
 	var tix="HSC Maths Ext 2 Trial Papers";
 	var tags="/s/yr12/Maths/trialpapers_extension2.html#"+idx;
 	var maths="maths=1";
-	var forumenabled="forum=1";
-	var forumlk="14"
 	break;
 	case "5385A":
 	/* 5385= QLD Maths */
@@ -864,8 +580,6 @@ function loadx()
 	var root=titlex.split(" ")[0].toLowerCase();
 	var tix="Olympiad/Competition Paper";
 	var tags="/s/yr12/Maths/Competitions/cp_"+root+".html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="238"
 	break;
 	case "5442":
 	/* COURSE MATERIALS */
@@ -876,152 +590,60 @@ function loadx()
 	case "5518":
 	var tix="Year 11 Modern History Yearly Papers";
 	var tags="/s/yr11/Modern History/prelimpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="33"
-	break;
-	case "5520":
-	var tix="HSC Modern History";
-	var tags="/s/yr12/Modern History/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="33"
 	break;
 	case "5528":
 	var tix="HSC Modern History Trial Papers";
 	var tags="/s/yr12/Modern History/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="33"
-	break;
-	case "6420":
-	var tix="HSC PDHPE";
-	var tags="/s/yr12/PDHPE/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="25"
 	break;
 	case "6428":
 	var tix="HSC PDHPE Trial Papers";
 	var tags="/s/yr12/PDHPE/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="25"
 	break;
 	case "6516":
 	var tix="Year 11 Physics HY Papers";
 	var tags="/s/yr11/Physics/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="18"
 	break;
 	case "6518":
 	var tix="Year 11 Physics Yearly Papers";
 	var tags="/s/yr11/Physics/prelimpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="18"
-	break;
-	case "6520":
-	var tix="HSC Physics";
-	var tags="/s/yr12/Physics/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="18"
 	break;
 	case "6521":
 	var tix="HSC Physics CT1 Nov-Dec Assessments";
 	var tags="/s/yr12/Physics/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="18"
 	break;
 	case "6523":
 	var tix="HSC Physics CT3 May-Jun Assessments";
 	var tags="/s/yr12/Physics/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="18"
 	break;
 	case "6526":
 	var tix="HSC Physics HY Papers";
 	var tags="/s/yr12/Physics/assessment-tasks.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="18"
 	break;
 	case "6528":
 	var tix="HSC Physics Trial Papers";
 	var tags="/s/yr12/Physics/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="18"
-	break;
-	case "7470":
-	var tix="HSC Software"; /* SDD */
-	var tags="/s/yr12/Software/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="30"
 	break;
 	case "7478":
 	var tix="HSC Software Trial Papers"; /* SDD */
 	var tags="/s/yr12/Software/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="30"
-	break;
-	case "7520":
-	var tix="HSC Senior Science";
-	var tags="/s/yr12/Senior Science/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="19"
 	break;
 	case "7528":
 	var tix="HSC Senior Science Trial Papers";
 	var tags="/s/yr12/Senior Science/trialpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="19"
-	break;
-	case "7670":
-	var tix="HSC Society & Culture";
-	var tags="/s/yr12/Society & Culture/index.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="26"
-	break;
-	case "7700":
-	var tix="HSC Studies of Religion";
-	var tags="/s/yr12/Studies of Religion/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="38"
-	break;
-	case "7710":
-	var titlex=titlex.replace(" (SOR1)", "");
-	var tix="HSC Studies of Religion 1";
-	var tags="/s/yr12/Studies of Religion/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="38"
 	break;
 	case "7718":
 	var tix="HSC Studies of Religion 1 Trial Papers";
 	var tags="/s/yr12/Studies of Religion/trialpapers_sor1.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="38"
-	break;
-	case "7720":
-	var titlex=titlex.replace(" (SOR2)", "");
-	var tix="HSC Studies of Religion 2";
-	var tags="/s/yr12/Studies of Religion/hscpapers.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="38"
 	break;
 	case "7728":
 	var tix="HSC Studies of Religion 2 Trial Papers";
 	var tags="/s/yr12/Studies of Religion/trialpapers_sor2.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="38"
 	break;
-	case "7920":
-	var tix="HSC Textiles & Design";
-	var tags="/s/yr12/Textiles & Design/index.html#"+idx;
-	break;
-	case "8570":
-	var tix="HSC Visual Arts"; /* VA */
-	var tags="/s/yr12/Visual Arts/index.html#"+idx;
-	var forumenabled="forum=1";
-	var forumlk="37"
-	break;
-	case "sdf":
+	/*case "sdf":
 	var switchx="sdf";
-	break;
+	break;*/
 	default:
-	window.location="https://thsconline.github.io/frenzy/v/"+viewno+".html?id="+idx+"&n="+titlex+""
+	window.location="https://thsconline.github.io/s/v/"+viewno+".html?id="+idx+"&n="+titlex+""
 	return;
 	break;
 	}
@@ -1048,10 +670,10 @@ function loadx()
 	{
 	var tags=treelink;
 	}
-	if (switchx=="sdf")
+/*	if (switchx=="sdf")
 	{
 	var sdfforumlk="http://community.boredofstudies.org/"+getParameterByName('linkref', "459/secondary-education/")
-	}
+	}*/
 	var myurl = document.location;
 	document.write("<html><head>");
 	if (switchx=="sdf")
@@ -1079,39 +701,34 @@ function loadx()
 	document.write("<span class=\"nmob\">&nbsp;&nbsp;<b>"+tix+"</b> - <\/span>"+titlex);
 	}
 	document.write("<span style=\"float:right;\">&nbsp;&nbsp;");
-	if (switchx=="sdf")
+/*	if (switchx=="sdf")
 	{
 	}
 	else
-	{
+	{*/
 	if(maths=="maths=1")
 	{
 	document.write("<span class=\"nmob\"><a class=\"border\" href=\"\/s\/resources\/Maths Reference Sheet.pdf\" target=\"_blank\">Math Formulae<\/a>&nbsp;&nbsp;</span>");
 	document.write("<span class=\"nmob\"><a class=\"border\" href=\"\/s\/resources\/Standard Integral Sheet.pdf\" target=\"_blank\">Standard Integrals<\/a>&nbsp;&nbsp;</span>");
 	}
-	if(forumenabled=="forum=1")
-	{
-	document.write("<span class=\"nmob\"><a class=\"border\" href=\"http://community.boredofstudies.org/forumdisplay.php?f="+forumlk+"\" target=\"_blank\">Forum<\/a>&nbsp;&nbsp;</span>");
-	// document.write("<span class=\"nmob\"><a class=\"border\" href=\"http://community.boredofstudies.org/newthread.php?do=newthread&f="+forumlk+"\" target=\"_blank\">Ask Question / Discuss<\/a>&nbsp;&nbsp;</span>");
-	}
 	// document.write("<a class=\"border\" href=\""+downloadlk+"\" target=\"_blank\">Download PDF<\/a>&nbsp;&nbsp;");
 	document.write("<span id=\"downloadlk\"></span>");
-	}
+	// }
 	// document.write("<a class=\"border\" href=\"/s/?login\" target=\"_blank\">BETA Login/Register<\/a>&nbsp;&nbsp;");
 	// document.write("<a class=\"border\" href=\"/s/?download"+searchq.substr(5)+"\" target=\"_blank\">BETA Download<\/a>&nbsp;&nbsp;");
 
-	if (switchx=="sdf")
+	/* if (switchx=="sdf")
 	{
 		if (viewno.charAt(0)=="B"){
 		linkx="/s/?view="+viewnox+"&id="+idx+"&n="+titlex+""
-		/*	document.write("<a class=\"border\" href=\""+linkx+"\"  style=\"background-color:#222222 !important;\">Expand<\/a>&nbsp;&nbsp;")*/
+		//	document.write("<a class=\"border\" href=\""+linkx+"\"  style=\"background-color:#222222 !important;\">Expand<\/a>&nbsp;&nbsp;")
 		}
 	document.write("<a class=\"border\" href=\"https:\/\/thsconline.github.io\/s/\">Go to THSC<\/a>&nbsp;&nbsp;<a class=\"nofill border\" href=\"\/s\/?close\">Close &#215;<\/a></span></span></span><br>");
 	}
 	else
-	{
+	{ */
 	document.write("<!--&nbsp;&nbsp;--><a class=\"border\" href=\""+tags+"\">Close &#215;<\/a>&nbsp;&nbsp;</span></span></span><br>");
-	}
+	// }
 
 
 	var viewlk="https:\/\/drive.google.com\/file\/d\/1QLU8Rfy7Lk_vO0HiRSQSVSBM3oAgCncq\/preview"; // temp line
