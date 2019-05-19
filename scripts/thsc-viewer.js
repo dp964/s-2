@@ -494,7 +494,7 @@ function loadx()
 	var tix="HSC Maths Ext 1 CT4 Aug-Sep Assessments";
 	var tags="/s/yr12/Maths/assessment-tasks_extension1.html#"+idx;
 	var maths="maths=1";
-	\break;
+	break;
 	case "5336":
 	var tix="HSC Maths Ext 1 HY Papers";
 	var tags="/s/yr12/Maths/assessment-tasks_extension1.html#"+idx;
