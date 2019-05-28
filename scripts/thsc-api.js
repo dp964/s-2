@@ -36,7 +36,7 @@ function writeshell(http)
 {
 	document.title = http.title;
 	document.write(http.htmlcontent); 
-	setTimeout(function(){configure()}, 3)
+	setTimeout(function(){configure()}, 1)
 	location.href = window.location.hash;  
 }
 
