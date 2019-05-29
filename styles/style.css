@@ -1091,7 +1091,8 @@ right:5px;
 float:right;
 }
 
-.c-ItemTile .titlex
+.c-ItemTile 
+x
 {
 text-align: left;
 
@@ -1121,6 +1122,17 @@ padding-bottom:12px;
 .mobile .listing, .mobile .indent
 {
 padding-top:5px !important;
+}
+
+.sectionheader
+{
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	padding-left: 4px !important;
+	background-color:#7777FF !important;
+	color:white;
+	width:100%;
+	display:inline-block;
+	margin-bottom:4px;
 }
 
 .title
@@ -1378,3 +1390,6 @@ border:0px;
         right: 35px;
     }
 }
+
+
+
