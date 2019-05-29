@@ -37,7 +37,7 @@ h4 {
 	font: 600 16px/normal "XITS", "Palatino Linotype", "Arial", sans-serif; padding: 10px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
 }
 h5 {
-	font: 600 14px/normal "XITS", "Palatino Linotype", "Arial", sans-serif; padding: 8px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+	font: 600 13px/normal "XITS", "Palatino Linotype", "Arial", sans-serif; padding: 8px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
 }
 h6 {
 	font: 600 12px/normal "XITS", "Palatino Linotype", "Arial", sans-serif; padding: 7px 0px 0px; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
@@ -1192,7 +1192,7 @@ color:#555555 !important;;
    .reduciblex {display:none;}
 
       body #sites-page-title-header {font-size:22px !important;}
-      body #sites-chrome-everything h4 {font-size:15px !important;}
+      body #sites-chrome-everything h4 {font-size:16px !important;}
 
    }
 
@@ -1213,7 +1213,7 @@ margin-right:50px !important;
 /*   }
  @media screen and (max-width:670px){*/
    .td {display:table-row;}
-      body #sites-chrome-everything h4 {font-size:15px !important;}
+      body #sites-chrome-everything h4 {font-size:16px !important;}
       #web-list .goog-container {display:none !important;}
 .nmob {display:none !important;}
 .mobx {display:inline-block !important;} 
@@ -1394,5 +1394,3 @@ border:0px;
         right: 35px;
     }
 }
-
-
