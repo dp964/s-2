@@ -1126,11 +1126,14 @@ padding-top:5px !important;
 
 .sectionheader
 {
-border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+
+border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;
 	padding-left: 4px !important;
-	border: 1px solid #000000;
-	font-weight:bold !important;
-	color:#000000;
+	border: 0.5px solid #AAAAAA;
+	
+	border-bottom:2.5px solid #AAAAAA;
+	font-weight:bold;
+	color:black;
 	width:100%;
 	display:inline-block;
 	margin-bottom:4px;
@@ -1391,3 +1394,5 @@ border:0px;
         right: 35px;
     }
 }
+
+
